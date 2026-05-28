@@ -158,6 +158,31 @@
       </div>
     </section>
 
+    <section class="section" id="documents">
+      <div class="container">
+        <p class="section-intro">Documents</p>
+        <h2>Resume, portfolio and certificates — view without downloading</h2>
+        <p>All PDF content is rendered in-page. Click a document to open the viewer, see page thumbnails, and read extracted text.</p>
+
+        <div class="doc-actions">
+          <button class="button button-secondary" data-doc="assets/docs/Resume202605050213.pdf">View Resume</button>
+          <button class="button button-secondary" data-doc="assets/docs/Portafolio.pdf">View Portfolio</button>
+          <button class="button button-secondary" data-doc="assets/docs/CONSTANCIA.pdf">View Certificates</button>
+        </div>
+
+        <div id="pdf-modal" class="pdf-modal" aria-hidden="true">
+          <div class="pdf-modal-inner">
+            <button class="pdf-close" aria-label="Close viewer">✕</button>
+            <aside class="pdf-thumbs" id="pdf-thumbs"></aside>
+            <section class="pdf-viewer" id="pdf-viewer">
+              <div class="pdf-canvas-wrap" id="pdf-canvas-wrap"></div>
+              <div class="pdf-text" id="pdf-text"></div>
+            </section>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <section class="section" id="experience">
       <div class="container experience-block">
         <p class="section-intro">Professional experience</p>
@@ -220,6 +245,7 @@
     </div>
   </footer>
 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.16.105/pdf.min.js"></script>
   <script src="js/script.js"></script>
 </body>
 </html>

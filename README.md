@@ -9,6 +9,7 @@ This repository contains a recruiter-friendly, one-page portfolio website for an
 - `js/script.js` — dark mode toggle with theme preference persistence.
  - `assets/docs/Resume202605050213.pdf` — resume link for recruiter review.
  - `assets/docs/Portafolio.pdf` — full portfolio document.
+ - `assets/docs/Portafolio.pdf` — full portfolio document. The site includes an in-page PDF viewer (powered by PDF.js) so reviewers can read documents and view thumbnails without downloading.
 
 ## How to use
 

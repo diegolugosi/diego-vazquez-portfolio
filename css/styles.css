@@ -426,3 +426,87 @@ body.dark .eyebrow,
 body.dark .section-intro {
   color: #7dd3fc;
 }
+
+/* PDF viewer styles */
+.doc-actions {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+  flex-wrap: wrap;
+}
+
+.pdf-modal {
+  position: fixed;
+  inset: 0;
+  background: rgba(2,6,23,0.6);
+  display: none;
+  align-items: center;
+  justify-content: center;
+  z-index: 60;
+}
+
+.pdf-modal[aria-hidden="false"] {
+  display: flex;
+}
+
+.pdf-modal-inner {
+  width: min(1100px, 96%);
+  height: min(820px, 92%);
+  background: var(--card-bg, white);
+  border-radius: 0.8rem;
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: 220px 1fr;
+  gap: 0.5rem;
+}
+
+.pdf-close {
+  position: absolute;
+  right: 1.25rem;
+  top: 1rem;
+  z-index: 80;
+  background: transparent;
+  border: none;
+  font-size: 1.1rem;
+  cursor: pointer;
+  color: inherit;
+}
+
+.pdf-thumbs {
+  padding: 1rem;
+  overflow: auto;
+  background: transparent;
+  border-right: 1px solid rgba(15,23,42,0.06);
+}
+
+.pdf-thumbs canvas {
+  display: block;
+  width: 100%;
+  margin-bottom: 0.6rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+.pdf-viewer {
+  padding: 1rem;
+  overflow: auto;
+  display: grid;
+  grid-template-columns: 1fr 320px;
+  gap: 1rem;
+}
+
+.pdf-canvas-wrap canvas {
+  width: 100%;
+  height: auto;
+  box-shadow: 0 8px 38px rgba(15,23,42,0.12);
+  border-radius: 0.5rem;
+}
+
+.pdf-text {
+  padding: 0.75rem;
+  background: #f8fafc;
+  border-radius: 0.5rem;
+  overflow: auto;
+  font-size: 0.95rem;
+  line-height: 1.45;
+}
