@@ -7,8 +7,8 @@ This repository contains a recruiter-friendly, one-page portfolio website for an
 - `index.html` — main portfolio landing page.
 - `css/styles.css` — design system, responsive layout, and dark mode styles.
 - `js/script.js` — dark mode toggle with theme preference persistence.
-- `Resume202605050213.pdf` — resume link for recruiter review.
-- `Portafolio.pdf` — full portfolio document.
+ - `assets/docs/Resume202605050213.pdf` — resume link for recruiter review.
+ - `assets/docs/Portafolio.pdf` — full portfolio document.
 
 ## How to use
 
