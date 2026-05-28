@@ -7,9 +7,7 @@ This repository contains a recruiter-friendly, one-page portfolio website for an
 - `index.html` — main portfolio landing page.
 - `css/styles.css` — design system, responsive layout, and dark mode styles.
 - `js/script.js` — dark mode toggle with theme preference persistence.
- - `assets/docs/Resume202605050213.pdf` — resume link for recruiter review.
- - `assets/docs/Portafolio.pdf` — full portfolio document.
- - `assets/docs/Portafolio.pdf` — full portfolio document. The site includes an in-page PDF viewer (powered by PDF.js) so reviewers can read documents and view thumbnails without downloading.
+ - `js/script.js` — dark mode toggle with theme preference persistence and client-side extraction of embedded document content (resume, portfolio images, certificates).
 
 ## How to use
 
@@ -22,3 +20,4 @@ This repository contains a recruiter-friendly, one-page portfolio website for an
 - The page is optimized for desktop and mobile viewing.
 - It is designed to present industrial design experience clearly for recruiters.
 - Additional project images or case studies can be added under the `project-grid` section.
+ - All resume and certificate content is displayed inline on the page as text or images (no public PDF download links).
