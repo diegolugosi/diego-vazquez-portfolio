@@ -1,98 +1,268 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Industrial designer portfolio showcasing projects, skills, and professional experience." />
-  <title>Diego Vazquez | Industrial Designer</title>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-GTVs5mX6m1jQ0qZbZ+8dT1gkQK1Z4s6a6eK1q5r6u9s7v8w" crossorigin="anonymous">
-  <link rel="stylesheet" href="css/styles.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha384-jLKHWMZ6xY6iZ6Qm2Q6Q6Q6Q6Q6" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diego Vázquez - Industrial Designer</title>
+    <link rel="stylesheet" href="tooplate-graphite-creative.css">
 </head>
 <body>
-  <header class="site-header bg-white/95 backdrop-blur sticky top-0 z-20">
-    <div class="container header-inner flex items-center justify-between">
-      <!DOCTYPE html>
-      <html lang="en">
-      <head>
-          <meta charset="utf-8">
-          <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- HEADER -->
+    <header>
+        <div class="header-container">
+            <a href="#" class="logo-area" onclick="scrollToTop(); return false;">
+                <div class="logo-vector">DV</div>
+                <div class="logo-text">
+                    <h1>Diego Vázquez</h1>
+                    <p>Industrial Designer</p>
+                </div>
+            </a>
+            <nav>
+                <a href="#home" class="active">Home</a>
+                <a href="#services">Services</a>
+                <a href="portfolio.html">Portfolio</a>
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
+            </nav>
+            <button class="menu-toggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
 
-          <title>Diego Vazquez — Industrial Designer</title>
+    <!-- MAIN CONTENT -->
+    <main>
+        <!-- HERO SECTION -->
+        <section id="home" class="section-hero">
+            <div class="hero-container">
+                <div class="hero-left">
+                    <div class="hero-line"></div>
+                    <h2>Designing Solutions</h2>
+                    <p>Industrial Designer with expertise in technical project management, production logistics, and creative manufacturing. I specialize in transforming complex design challenges into elegant, functional solutions for global brands.</p>
+                    <a href="#contact" class="cta-button">Get in Touch</a>
+                </div>
+                <div class="profile-image-container">
+                    <img src="images/diego-profile.jpg" alt="Diego Vázquez - Industrial Designer" class="profile-image">
+                </div>
+            </div>
+        </section>
 
-          <!-- load CSS -->
-          <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300">
-          <link rel="stylesheet" href="css/bootstrap.min.css">
-          <link rel="stylesheet" href="fontawesome/css/fontawesome-all.min.css">
-          <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
-          <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
-          <link rel="stylesheet" href="css/tooplate-style.css">
-      </head>
-      <body>
-          <div id="tm-bg"></div>
-          <div id="tm-wrap">
-              <div class="tm-main-content">
-                  <div class="container tm-site-header-container">
-                      <div class="row">
-                          <div class="col-sm-12 col-md-6 col-lg-6 col-md-col-xl-6 mb-md-0 mb-sm-4 mb-4 tm-site-header-col">
-                              <div class="tm-site-header">
-                                  <h1 class="mb-4">Diego Vazquez</h1>
-                                  <img src="img/underline.png" class="img-fluid mb-4" alt="underline">
-                                  <p>Industrial Designer — Product & UX-focused. Portfolio and resume embedded on this site.</p>
-                              </div>
-                          </div>
-                          <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
-                              <div class="content">
-                                  <div class="grid">
-                                      <div class="grid__item" id="home-link">
-                                          <div class="product">
-                                              <div class="tm-nav-link">
-                                                  <i class="fas fa-home fa-3x tm-nav-icon"></i>
-                                                  <span class="tm-nav-text">Welcome</span>
-                                                  <div class="product__bg"></div>
-                                              </div>
-                                              <div class="product__description">
-                                                  <div class="row mb-3">
-                                                      <div class="col-12">
-                                                          <h2 class="tm-page-title">Welcome</h2>
-                                                      </div>
-                                                  </div>
-                                                  <div class="row">
-                                                      <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
-                                                          <img src="img/welcome-1.jpg" class="img-fluid mb-3" alt="welcome">
-                                                          <p>This portfolio shows projects, experience and certifications. All documents are embedded — no downloads required.</p>
-                                                      </div>
-                                                      <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
-                                                          <img src="img/welcome-2.jpg" class="img-fluid" alt="work sample">
-                                                      </div>
-                                                  </div>
-                                              </div>
-                                          </div>
-                                      </div>
+        <!-- SERVICES SECTION -->
+        <section id="services" class="section-services">
+            <div class="services-container">
+                <h2 class="section-title">Core Expertise</h2>
+                <div class="services-grid">
+                    <div class="service-card">
+                        <div class="service-number">◆</div>
+                        <h3>3D Design & Modeling</h3>
+                        <p>Expert in Rhino, AutoCAD, and 3ds Max. Creating precision blueprints, technical renders, and photorealistic visualizations for manufacturing and presentation.</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-number">◆</div>
+                        <h3>Project Coordination</h3>
+                        <p>Leading complex projects from concept to execution. Managing budgets, supplier relations, and cross-functional teams for brands like Amazon and Mercado Libre.</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-number">◆</div>
+                        <h3>Manufacturing & Logistics</h3>
+                        <p>Specialized in 3D printing, laser cutting, CNC programming, and fine cabinetry. Overseeing technical processes and assembly logistics at scale.</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-number">◆</div>
+                        <h3>Technical Documentation</h3>
+                        <p>Combining design expertise with JavaScript and HTML skills to create digital documentation, technical reports, and web-based project management tools.</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-number">◆</div>
+                        <h3>Furniture & Product Design</h3>
+                        <p>Developing high-precision designs for premium furniture manufacturing, fine cabinetry, and bespoke product solutions for corporate and individual clients.</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-number">◆</div>
+                        <h3>Workshop Facilitation</h3>
+                        <p>Leading participatory design workshops, community-based object replication projects, and technical training for cross-functional teams.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-                                      <!-- Other sections remain similar to the template -->
+        <!-- PROFESSIONAL EXPERIENCE SECTION -->
+        <section id="portfolio" class="section-experience">
+            <div class="experience-container">
+                <h2 class="section-title">Professional Experience</h2>
+                <div class="experience-timeline">
+                    <div class="experience-item">
+                        <div class="experience-header">
+                            <h3>Project Coordinator & Industrial Designer</h3>
+                            <span class="experience-company">Casa Topika</span>
+                            <span class="experience-period">Jun 2025 to Present</span>
+                        </div>
+                        <p class="experience-description">Leading production and assembly logistics for high-scale retail projects for major international brands including Amazon and Mercado Libre. Implemented HTML and JavaScript elements within technical requirements and documentation to improve digital project updates and efficiency.</p>
+                        <div class="experience-tags">
+                            <span class="tag">Project Management</span>
+                            <span class="tag">Retail</span>
+                            <span class="tag">Logistics</span>
+                            <span class="tag">Budget Analysis</span>
+                        </div>
+                    </div>
 
-                                  </div>
-                              </div>
-                          </div>
-                      </div>
-                  </div>
-                  <footer>
-                      <p class="small tm-copyright-text">Copyright &copy; <span class="tm-current-year">2026</span> Diego Vazquez.</p>
-                  </footer>
-              </div>
-          </div>
+                    <div class="experience-item">
+                        <div class="experience-header">
+                            <h3>Industrial Designer</h3>
+                            <span class="experience-company">Montaño Diseño</span>
+                            <span class="experience-period">Jan 2025 to May 2025</span>
+                        </div>
+                        <p class="experience-description">Developed high-precision blueprints and 3D renders for premium furniture manufacturing. Supervised workshop teams in carpentry and upholstery to maintain quality standards for corporate clients. Translated complex client requirements into technical specifications for production departments.</p>
+                        <div class="experience-tags">
+                            <span class="tag">3D Modeling</span>
+                            <span class="tag">Blueprint Design</span>
+                            <span class="tag">Quality Assurance</span>
+                            <span class="tag">Team Leadership</span>
+                        </div>
+                    </div>
 
-          <!-- load JS -->
-          <script src="js/jquery-3.2.1.slim.min.js"></script>
-          <script src="slick/slick.min.js"></script>
-          <script src="js/anime.min.js"></script>
-          <script src="js/main.js"></script>
-          <script>
-              $(function(){
-                  $('.tm-current-year').text(new Date().getFullYear());
-              });
-          </script>
-      </body>
-      </html>
-            <li>Optimized assembly cost through modular engineering</li>
+                    <div class="experience-item">
+                        <div class="experience-header">
+                            <h3>Design & Logistics Assistant</h3>
+                            <span class="experience-company">Actidea</span>
+                            <span class="experience-period">Feb 2019 to Aug 2019</span>
+                        </div>
+                        <p class="experience-description">Supported production and assembly of brand activations for major clients including Danone, with focus on logistics and technical setup. Managed large-format printing and digital assets for commercial stands and exhibitions across multiple venues.</p>
+                        <div class="experience-tags">
+                            <span class="tag">Brand Activation</span>
+                            <span class="tag">Logistics</span>
+                            <span class="tag">Print Management</span>
+                            <span class="tag">Event Setup</span>
+                        </div>
+                    </div>
+
+                    <div class="experience-item">
+                        <div class="experience-header">
+                            <h3>Design Software Expertise</h3>
+                            <span class="experience-company">Professional Tools</span>
+                            <span class="experience-period">Industry Standard</span>
+                        </div>
+                        <p class="experience-description">Proficient in industry-standard design and visualization software. Capable of creating complex 3D models, technical renderings, and photorealistic visualizations for presentations and manufacturing specifications.</p>
+                        <div class="experience-tags">
+                            <span class="tag">Rhino 3D</span>
+                            <span class="tag">AutoCAD</span>
+                            <span class="tag">3ds Max</span>
+                            <span class="tag">KeyShot</span>
+                        </div>
+                    </div>
+
+                    <div class="experience-item">
+                        <div class="experience-header">
+                            <h3>Manufacturing & Production</h3>
+                            <span class="experience-company">Technical Expertise</span>
+                            <span class="experience-period">Ongoing</span>
+                        </div>
+                        <p class="experience-description">Hands-on expertise in modern manufacturing technologies and traditional craftsmanship. Experienced in supervising 3D printing, laser cutting, CNC programming, and fine cabinetry production to ensure quality and precision.</p>
+                        <div class="experience-tags">
+                            <span class="tag">3D Printing</span>
+                            <span class="tag">Laser Cutting</span>
+                            <span class="tag">CNC Programming</span>
+                            <span class="tag">Cabinetry</span>
+                        </div>
+                    </div>
+
+                    <div class="experience-item">
+                        <div class="experience-header">
+                            <h3>Education & Certifications</h3>
+                            <span class="experience-company">UAM Xochimilco</span>
+                            <span class="experience-period">B.A. Industrial Design</span>
+                        </div>
+                        <p class="experience-description">Formally trained at UAM Xochimilco with a B.A. in Industrial Design. Continuously pursuing professional development through specialized certifications in community systems, museographic infrastructure, and technical project management.</p>
+                        <div class="experience-tags">
+                            <span class="tag">Industrial Design</span>
+                            <span class="tag">Community Systems</span>
+                            <span class="tag">Museography</span>
+                            <span class="tag">Project Management</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ABOUT SECTION -->
+        <section id="about" class="section-about">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-container">
+                <div class="about-content">
+                    <h3>Professional Background</h3>
+                    <p>I'm an Industrial Designer with extensive experience in technical project management and production logistics. I have a proven track record coordinating complex projects for global brands such as Amazon and Mercado Libre. I combine deep design expertise with practical knowledge in JavaScript and HTML to deliver comprehensive solutions from concept to completion.</p>
+                    <p>My background spans precision 3D design, manufacturing supervision, budget management, and cross-functional team leadership. I'm passionate about solving complex design challenges through strategic thinking, technical precision, and collaborative problem-solving.</p>
+                    <p>Currently, I'm serving as Project Coordinator & Industrial Designer at Casa Topika, overseeing high-scale retail projects and leading teams in assembly logistics and technical execution.</p>
+                </div>
+                <div class="about-blocks">
+                    <div class="about-block">
+                        <h4>Design Excellence</h4>
+                        <p>I'm proficient in Rhino, AutoCAD, 3ds Max, and KeyShot for creating precise technical specifications and photorealistic visualizations.</p>
+                    </div>
+                    <div class="about-block">
+                        <h4>Technical Expertise</h4>
+                        <p>I have hands-on knowledge of 3D printing, laser cutting, CNC programming, and fine cabinetry production. I'm also proficient in technical documentation with HTML and JavaScript.</p>
+                    </div>
+                    <div class="about-block">
+                        <h4>Project Leadership</h4>
+                        <p>I'm experienced in budget oversight, supplier relations, assembly logistics, and coordinating teams across international markets and complex manufacturing environments.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTACT SECTION -->
+        <section id="contact" class="section-contact">
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h3>Let's Work Together</h3>
+                    <p>Interested in discussing a design project, collaboration opportunity, or have questions about my work? I'd love to hear from you. Get in touch through any of the channels below.</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <label>Email</label>
+                            <a href="mailto:diego.vgtz98@gmail.com">diego.vgtz98@gmail.com</a>
+                        </div>
+                        <div class="contact-item">
+                            <label>Phone</label>
+                            <a href="tel:+525543671743">+525543671743</a>
+                        </div>
+                        <div class="contact-item">
+                            <label>LinkedIn</label>
+                            <a href="https://www.linkedin.com/in/diegovgtz98/?locale=en" target="_blank">linkedin.com/in/diegovgtz98</a>
+                        </div>
+                        <div class="contact-item">
+                            <label>Location</label>
+                            Mexico City, MX
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- PORTFOLIO MODAL -->
+        <div id="portfolioModal" class="portfolio-modal">
+            <div class="modal-content">
+                <button class="modal-close" onclick="closePortfolioModal()">&times;</button>
+                <img id="modalImage" src="" alt="" class="modal-image">
+                <div class="modal-details">
+                    <h3 id="modalTitle"></h3>
+                    <p id="modalCategory"></p>
+                    <p id="modalDescription"></p>
+                    <ul id="modalFeatures"></ul>
+                    <a href="#" id="modalVisitBtn" class="modal-visit-btn" target="_blank">Visit the Site</a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>&copy; 2026 Diego Vázquez. All rights reserved.</p>
+    </footer>
+
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+	<script src="tooplate-graphite-script.js"></script>
+</body>
+</html>
